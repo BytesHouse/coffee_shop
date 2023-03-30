@@ -1,0 +1,91 @@
+body {
+  /* Задать цвет фона */
+  background-color: whitesmoke;
+  /* Обнуление внешних полей */
+  margin: 0;
+}
+
+.header {
+  /* Высота блока */
+  height: 400px;
+  /* Задать картинку как задний фон блока */
+  background-image: url("../Images/coffee-bgnd.jpeg");
+  /* Расположение картинки на заднем фоне */
+  background-position: center;
+}
+
+h1 {
+  /* Размер шрифта */
+  font-size: 100px;
+  /* Семейство шрифта */
+  font-family: "Covered By Your Grace", cursive;
+  /* Цвет шрифта */
+  color: rgba(3, 150, 100, 0.75);
+  /* Выравнивание текст по середине */
+  text-align: center;
+  /* обнуление внешних полей */
+  margin: 0;
+  /* внутренний отступ от верхнего края */
+  padding-top: 130px;
+}
+
+.main > ul {
+  /* отключение декорации списков */
+  list-style: none;
+  /* Обнуление полей */
+  padding: 0;
+  margin: 0;
+}
+
+.main li {
+  margin: 100px 0;
+  /* Граница элемента */
+  border-bottom: 1px solid #e4bb97;
+  padding-bottom: 60px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  /* Вес шрифта */
+  font-weight: 600;
+  font-size: 28px;
+  background-color: #aa8eb5;
+  text-align: center;
+  /* ПОДНИМАЕТ ШРИФТ В ВЕРХНИЙ РЕГИСТР */
+  text-transform: uppercase;
+}
+
+.main li > p {
+  color: #444;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: justify;
+  /* Создает отступ от края начала параграфа (Красная строка) */
+  text-indent: 32px;
+  /* Высота линии */
+  line-height: 1.5;
+  padding: 0 5px;
+}
+/* Псевдоклассы и всевдоэлементы еще не проходили - они тут для красоты. Пасхалка для любопытных :-) */
+a:link {
+  color: #214e34;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+a:visited {
+  color: violet;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+  cursor: help;
+}
